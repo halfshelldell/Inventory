@@ -6,10 +6,16 @@ package com.theironyard;
 public class Item {
     String text;
     int quantity;
+    String category;
+
+    public Item() {
+
+    }
 
     public Item(String text, int quantity) {
         this.text = text;
         this.quantity = quantity;
+
     }
 
 
